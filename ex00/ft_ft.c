@@ -6,16 +6,15 @@
 /*   By: pafernan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 08:49:18 by pafernan          #+#    #+#             */
-/*   Updated: 2020/07/09 09:00:06 by pafernan         ###   ########.fr       */
+/*   Updated: 2020/07/16 14:05:41 by pafernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include	<unistd.h>
 
-int	main(void)
+void		ft_ft(int *nbr)
 {
 	int	a;
-	int *ptr;
 
 	a = 42;
-	ptr = &a;
+	nbr = &a;
 }
